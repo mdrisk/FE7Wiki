@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang = "en">
+<head>
+  <meta charset="utf-8">
+  <title>The WikiSearch</title>
+  <meta name="description" content="The WikiSearch">
+  <meta name="author" content="Matthew Risk">
+
+  <link rel="stylesheet" href="WikiSearch.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="outer">
+     <div class="inner">
+       <img  class="image" src="http://res.cloudinary.com/mdrisk/image/upload/v1509370566/2000px-Wikipedia-logo-v2-en.svg_1_meyvgo.png">
+      </div>
+      <div class="inner">
+      <span class="icon"><i class="fa fa-search"></i></span>
+        <form name="main">
+        <input type="text" id="searchBar" placeholder="  Search Term..."/>
+
+        </form>
+        <button id="randomButton" class="btn">Random</button>
+        </div>
+      <div class="inner">
+        <ul id="results">
+        </ul>
+        </div>
+  </div>
+  </div>
+</body>
+  <script type="text/javascript" src="WikiSearch.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</html>
